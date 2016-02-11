@@ -26,11 +26,14 @@ movies << {
   stars: ["Leonardo DiCaprio", "JGL"]
 }
 
+
+# an array of movies with budgets less than 100
 smaller_budget = movies.select do |movies|
   movies[:budget] <= 100
 end
 puts smaller_budget
 
+# an array of movies that have Leonardo DiCaprio as a star
 actor_Leo = movies.select do |movies|
   movies[:stars].include? "Leonardo DiCaprio"
 end
