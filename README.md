@@ -1,6 +1,6 @@
-# RubyData
+## RubyData
 
-#PART 1: Words from strings
+### PART 1: Words from strings
 
 * Create an array of the words in the sentence below
 
@@ -8,7 +8,7 @@
 
 "Tacos must not have lettuce Only meat and cheese and salsa"
 
-#Part 2: Enumerable
+### Part 2: Enumerable
 
     movies = []
     movies << {
@@ -37,9 +37,9 @@
     stars: ["Leonardo DiCaprio", "JGL"]
     }
 
-* Create an array of movies with budgets less than 100
+- [ ] Create an array of movies with budgets less than 100
 
-* Create an array of movies that have Leonardo DiCaprio as a star
+- [ ] Create an array of movies that have Leonardo DiCaprio as a star
 
 
 
